@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="ESRI Leaflet Test">cad3af35c3ce79501edc78f9d001313e</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-23 21:27:57</sys_created_on>
+        <sys_id>8914a375c3ce79501edc78f9d0013156</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ESRI Leaflet.ESRI Leaflet Test</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_update_name>io_set_item_8914a375c3ce79501edc78f9d0013156</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-23 21:27:58</sys_updated_on>
+        <variable_set display_value="ESRI Leaflet">37abba3dc3ca79501edc78f9d0013188</variable_set>
+    </io_set_item>
+</record_update>

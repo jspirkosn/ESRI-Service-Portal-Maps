@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include">
+    <sp_js_include action="INSERT_OR_UPDATE">
+        <display_name>https://unpkg.com/esri-leaflet-vector@4.1.0/dist/esri-leaflet-vector.js</display_name>
+        <source>url</source>
+        <sys_class_name>sp_js_include</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-23 21:25:55</sys_created_on>
+        <sys_id>c873e335c3ce79501edc78f9d001317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>https://unpkg.com/esri-leaflet-vector@4.1.0/dist/esri-leaflet-vector.js</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_ui_script/>
+        <sys_update_name>sp_js_include_c873e335c3ce79501edc78f9d001317d</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-23 21:25:55</sys_updated_on>
+        <url>https://unpkg.com/esri-leaflet-vector@4.1.0/dist/esri-leaflet-vector.js</url>
+    </sp_js_include>
+</record_update>

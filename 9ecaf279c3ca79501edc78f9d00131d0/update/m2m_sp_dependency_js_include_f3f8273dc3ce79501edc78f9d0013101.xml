@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_dependency display_value="ESRI Leaflet Includes">4b92a3f1c3ce79501edc78f9d0013117</sp_dependency>
+        <sp_js_include display_value="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">dad82bf9c3ce79501edc78f9d0013111</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-23 21:49:26</sys_created_on>
+        <sys_id>f3f8273dc3ce79501edc78f9d0013101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ESRI Leaflet Includes.https://unpkg.com/leaflet@1.9.4/dist/leaflet.js</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_f3f8273dc3ce79501edc78f9d0013101</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-23 21:49:26</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+</record_update>
