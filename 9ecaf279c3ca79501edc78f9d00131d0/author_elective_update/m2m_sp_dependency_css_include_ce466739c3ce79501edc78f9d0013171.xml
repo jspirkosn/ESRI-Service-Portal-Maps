@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_css_include">
+    <m2m_sp_dependency_css_include action="DELETE">
+        <order>300</order>
+        <sp_css_include display_value="https://unpkg.com/esri-leaflet@3.0.10/di">db366739c3ce79501edc78f9d00131d2</sp_css_include>
+        <sp_dependency display_value="ESRI Leaflet Includes">4b92a3f1c3ce79501edc78f9d0013117</sp_dependency>
+        <sys_class_name>m2m_sp_dependency_css_include</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-23 21:37:35</sys_created_on>
+        <sys_id>ce466739c3ce79501edc78f9d0013171</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>https://unpkg.com/esri-leaflet@3.0.10/di.ESRI Leaflet Includes</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_update_name>m2m_sp_dependency_css_include_ce466739c3ce79501edc78f9d0013171</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-23 21:53:23</sys_updated_on>
+    </m2m_sp_dependency_css_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>m2m_sp_dependency_css_include_ce466739c3ce79501edc78f9d0013171</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_css_include"><m2m_sp_dependency_css_include action="INSERT_OR_UPDATE"><order>300</order><sp_css_include display_value="https://unpkg.com/esri-leaflet@3.0.10/di">db366739c3ce79501edc78f9d00131d2</sp_css_include><sp_dependency display_value="ESRI Leaflet Includes">4b92a3f1c3ce79501edc78f9d0013117</sp_dependency><sys_class_name>m2m_sp_dependency_css_include</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2023-10-23 21:37:35</sys_created_on><sys_id>ce466739c3ce79501edc78f9d0013171</sys_id><sys_mod_count>2</sys_mod_count><sys_name>https://unpkg.com/esri-leaflet@3.0.10/di.ESRI Leaflet Includes</sys_name><sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package><sys_policy/><sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope><sys_update_name>m2m_sp_dependency_css_include_ce466739c3ce79501edc78f9d0013171</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2023-10-23 21:53:23</sys_updated_on></m2m_sp_dependency_css_include></record_update>]]></payload>
+        <payload_hash>1220466329</payload_hash>
+        <record_name>https://unpkg.com/esri-leaflet@3.0.10/di.ESRI Leaflet Includes</record_name>
+        <reverted_from/>
+        <source>66caf279c3ca79501edc78f9d00131d5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-23 21:53:23</sys_created_on>
+        <sys_id>51e9ab7dc3ce79501edc78f9d00131bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b5e873c860000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-23 21:53:23</sys_updated_on>
+        <type>Dependency CSS Includes</type>
+        <update_guid>59e9ab7d99ce795039ac42771fc126be</update_guid>
+        <update_guid_history>59e9ab7d99ce795039ac42771fc126be:1220466329,08566b3932ce795055e7ab96be8069d3:-521074758,464667397bce795017e0dabdd03d6373:2032351451</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="https://unpkg.com/esri-leaflet@3.0.10/di.ESRI Leaflet Includes">5e11f3f5c302b9501edc78f9d001312b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-23 22:24:51</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_dependency_css_include">m2m_sp_dependency_css_include</sys_db_object>
+        <sys_id>1d8a4dc5e77446149e7ba43da5463b81</sys_id>
+        <sys_metadata>ce466739c3ce79501edc78f9d0013171</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>https://unpkg.com/esri-leaflet@3.0.10/di.ESRI Leaflet Includes</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_scope_delete display_value="">840173635e9e4948a1a51a64bbe77724</sys_scope_delete>
+        <sys_update_name>m2m_sp_dependency_css_include_ce466739c3ce79501edc78f9d0013171</sys_update_name>
+        <sys_update_version display_value="m2m_sp_dependency_css_include_ce466739c3ce79501edc78f9d0013171">51e9ab7dc3ce79501edc78f9d00131bf</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-23 22:24:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

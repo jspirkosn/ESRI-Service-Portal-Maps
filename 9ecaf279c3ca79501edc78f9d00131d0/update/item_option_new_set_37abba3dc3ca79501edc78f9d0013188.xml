@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description>Allows users to enter their address from a map. Address fields are hidden to remove the need for manual entry.</description>
+        <display_title>false</display_title>
+        <internal_name>esri_leaflet</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-23 18:33:32</sys_created_on>
+        <sys_id>37abba3dc3ca79501edc78f9d0013188</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>ESRI Leaflet</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_update_name>item_option_new_set_37abba3dc3ca79501edc78f9d0013188</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-23 22:50:17</sys_updated_on>
+        <title>ESRI Leaflet</title>
+        <type>one_to_one</type>
+        <version>22</version>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

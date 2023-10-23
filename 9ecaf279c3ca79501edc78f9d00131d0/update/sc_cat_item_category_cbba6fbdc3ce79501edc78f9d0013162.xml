@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="ESRI Leaflet Test">cad3af35c3ce79501edc78f9d001313e</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-23 21:57:02</sys_created_on>
+        <sys_id>cbba6fbdc3ce79501edc78f9d0013162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.ESRI Leaflet Test</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_update_name>sc_cat_item_category_cbba6fbdc3ce79501edc78f9d0013162</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-23 21:57:02</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
