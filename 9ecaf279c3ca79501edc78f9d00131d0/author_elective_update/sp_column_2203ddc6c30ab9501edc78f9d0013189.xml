@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <size/>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">2603ddc6c30ab9501edc78f9d0013186</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-24 05:32:46</sys_created_on>
+        <sys_id>2203ddc6c30ab9501edc78f9d0013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_update_name>sp_column_2203ddc6c30ab9501edc78f9d0013189</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-24 05:32:46</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>sp_column_2203ddc6c30ab9501edc78f9d0013189</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><size/><size_lg/><size_sm/><size_xs/><sp_row display_value="1">2603ddc6c30ab9501edc78f9d0013186</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2023-10-24 05:32:46</sys_created_on><sys_id>2203ddc6c30ab9501edc78f9d0013189</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package><sys_policy/><sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope><sys_update_name>sp_column_2203ddc6c30ab9501edc78f9d0013189</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2023-10-24 05:32:46</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-1844945350</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>160ef739c342b9501edc78f9d00131c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-24 05:32:46</sys_created_on>
+        <sys_id>e203ddc6c30ab9501edc78f9d00131a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b602bd0e80000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-24 05:32:46</sys_updated_on>
+        <type>Column</type>
+        <update_guid>2a03ddc6690ab9501fbab8ef6a8ff9a3</update_guid>
+        <update_guid_history>2a03ddc6690ab9501fbab8ef6a8ff9a3:-1844945350</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">de67d4e3c30e3590299931ef050131f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-28 17:03:07</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>27a6bf2e5e4447e88adde337c96b0090</sys_id>
+        <sys_metadata>2203ddc6c30ab9501edc78f9d0013189</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_scope_delete display_value="">840173635e9e4948a1a51a64bbe77724</sys_scope_delete>
+        <sys_update_name>sp_column_2203ddc6c30ab9501edc78f9d0013189</sys_update_name>
+        <sys_update_version display_value="sp_column_2203ddc6c30ab9501edc78f9d0013189">e203ddc6c30ab9501edc78f9d00131a4</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-28 17:03:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

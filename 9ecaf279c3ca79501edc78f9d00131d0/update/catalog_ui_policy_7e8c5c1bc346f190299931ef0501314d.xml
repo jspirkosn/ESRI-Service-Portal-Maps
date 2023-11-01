@@ -27,25 +27,25 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Hide Location Fields on Leaflet</short_description>
+        <short_description>Hide Location Fields on JS API</short_description>
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2023-10-23 22:48:42</sys_created_on>
+        <sys_created_on>2023-10-27 22:47:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>7846bbbdc302b9501edc78f9d0013135</sys_id>
+        <sys_id>7e8c5c1bc346f190299931ef0501314d</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Hide Location Fields on Leaflet</sys_name>
+        <sys_name>Hide Location Fields on JS API</sys_name>
         <sys_overrides/>
         <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
         <sys_policy/>
         <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
-        <sys_update_name>catalog_ui_policy_7846bbbdc302b9501edc78f9d0013135</sys_update_name>
+        <sys_update_name>catalog_ui_policy_7e8c5c1bc346f190299931ef0501314d</sys_update_name>
         <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2023-10-28 17:00:22</sys_updated_on>
+        <sys_updated_on>2023-10-28 17:00:39</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
-        <variable_set display_value="ESRI Leaflet">37abba3dc3ca79501edc78f9d0013188</variable_set>
+        <variable_set display_value="ESRI JS API">21226b32c346fd501edc78f9d00131d4</variable_set>
         <view/>
     </catalog_ui_policy>
 </record_update>

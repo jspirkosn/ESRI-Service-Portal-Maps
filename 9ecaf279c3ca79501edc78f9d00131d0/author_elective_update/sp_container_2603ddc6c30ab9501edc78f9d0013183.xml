@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>ESRI JS API - Test Page - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="esri_js_api">ee03ddc6c30ab9501edc78f9d001317f</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-24 05:32:46</sys_created_on>
+        <sys_id>2603ddc6c30ab9501edc78f9d0013183</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ESRI JS API - Test Page - Container 1</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_update_name>sp_container_2603ddc6c30ab9501edc78f9d0013183</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-24 05:32:46</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>sp_container_2603ddc6c30ab9501edc78f9d0013183</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>ESRI JS API - Test Page - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="esri_js_api">ee03ddc6c30ab9501edc78f9d001317f</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2023-10-24 05:32:46</sys_created_on><sys_id>2603ddc6c30ab9501edc78f9d0013183</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ESRI JS API - Test Page - Container 1</sys_name><sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package><sys_policy/><sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope><sys_update_name>sp_container_2603ddc6c30ab9501edc78f9d0013183</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2023-10-24 05:32:46</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>736259575</payload_hash>
+        <record_name>ESRI JS API - Test Page - Container 1</record_name>
+        <reverted_from/>
+        <source>160ef739c342b9501edc78f9d00131c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-24 05:32:46</sys_created_on>
+        <sys_id>6e03ddc6c30ab9501edc78f9d0013185</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b602bd0950000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-24 05:32:46</sys_updated_on>
+        <type>Container</type>
+        <update_guid>a203ddc6ad0ab950d700aa6b93273385</update_guid>
+        <update_guid_history>a203ddc6ad0ab950d700aa6b93273385:736259575</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ESRI JS API - Test Page - Container 1">9a6718e3c30e3590299931ef0501310c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-28 17:03:07</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>0aba96c8061b4df08161718c144f1c24</sys_id>
+        <sys_metadata>2603ddc6c30ab9501edc78f9d0013183</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ESRI JS API - Test Page - Container 1</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_scope_delete display_value="">840173635e9e4948a1a51a64bbe77724</sys_scope_delete>
+        <sys_update_name>sp_container_2603ddc6c30ab9501edc78f9d0013183</sys_update_name>
+        <sys_update_version display_value="sp_container_2603ddc6c30ab9501edc78f9d0013183">6e03ddc6c30ab9501edc78f9d0013185</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-28 17:03:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

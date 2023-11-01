@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function initializeMap() {
+    AddArcGISLibrary();
+    var c = this;
+
+    setTimeout(function() {
+        require(["esri/config", "esri/Map", "esri/views/MapView", "esri/rest/locator", "esri/widgets/Zoom", "esri/widgets/Search"],
+            function(esriConfig, Map, MapView, locator, Zoom, Search) {
+
+                esriConfig.apiKey = c.data.apiKey;
+
+                var map = new Map({
+                    basemap: "streets"
+                });
+                //view.zoom.position = "top-right"
+                var view = new MapView({
+                    container: "viewDiv",
+                    map: map,
+                    zoom: 14,
+                    center: [-117.63321, 33.61281]
+
+                });
+
+                view.ui.move(["zoom"], "bottom-right");
+
+                var serviceUrl = "http://geocode-api.arcgis.com/arcgis/rest/services/World/GeocodeServer";
+                view.on("click", function(evt) {
+                    var params = {
+                        location: evt.mapPoint
+                    };
+                    search.searchTerm = "";
+                    locator.locationToAddress(serviceUrl, params).then(
+                        function(response) {
+                            // Show the address found
+                            var address = response.address;
+                            showAddress(address, evt.mapPoint);
+
+                        },
+                        function(err) {
+                            // Show no address found
+                            showAddress("No address found.", evt.mapPoint);
+                        }
+                    );
+
+                });
+
+                function showAddress(address, pt) {
+
+
+                    view.openPopup({
+                        content: +Math.round(pt.longitude * 100000) / 100000 + ", " + Math.round(pt.latitude * 100000) / 100000,
+                        //content: address,
+                        //title: "Search Resulting",
+                        title: address,
+                        location: pt
+                    });
+									setVariables(pt.latitude,pt.longitude, address);
+                }
+
+                var search = new Search({ //Add Search widget
+                    view: view,
+                    resultGraphicEnabled: false,
+                    popupEnabled: false
+                });
+                search.on("search-complete", function(event) {
+                    showAddress(event.results[0].results[0].name, event.results[0].results[0].feature.geometry);
+                });
+                view.ui.add(search, "top-left"); //Add to the map
+            });
+    }, 2000);
+}
+
+function setVariables(latIn, LonIn, locaIn) {
+    var lon = Math.round(latIn * 100000) / 100000;
+    var lat = Math.round(LonIn * 100000) / 100000;
+
+    $scope.page.g_form.setValue("latitude", lon);
+    $scope.page.g_form.setValue("longitude", lat);
+    $scope.page.g_form.setValue("location", locaIn);
+}
+
+function AddArcGISLibrary() {
+    var arcGISLib = document.createElement('script');
+    arcGISLib.setAttribute('src', 'https://js.arcgis.com/4.27');
+    document.head.appendChild(arcGISLib);
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>#viewDiv {
+  height: 100%;
+  width: 100%;
+  min-height: 350px;
+  min-width: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #323232;
+
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>esri_js_api</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>ESRI JS API</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    /* populate the 'data' object */
+    /* e.g., data.table = $sp.getValue('table'); */
+    data.apiKey = gs.getProperty('x_snc_esri_service.esri.maps.key');
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-24 05:32:45</sys_created_on>
+        <sys_id>e20399c6c30ab9501edc78f9d00131d1</sys_id>
+        <sys_mod_count>80</sys_mod_count>
+        <sys_name>ESRI JS API</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_update_name>sp_widget_e20399c6c30ab9501edc78f9d00131d1</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-28 16:55:36</sys_updated_on>
+        <template><![CDATA[<link rel="stylesheet" href="https://js.arcgis.com/4.27/esri/themes/light/main.css" />
+<div id="viewDiv"></div>]]></template>
+    </sp_widget>
+</record_update>
