@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="eeeda471c39ef510299931ef050131af" sys_domain="global" table="sn_gsm_service_requests" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2023-11-04 18:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2ed6c71c39ef510299931ef05013136</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_gsm_service_requests" name="sn_gsm_service_requests" sys_domain="global" view="532646bec3213110299931ef05013153">eeeda471c39ef510299931ef050131af</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sn_gsm_service_requests" sys_domain="global" view="532646bec3213110299931ef05013153">e6eda471c39ef510299931ef050131b3</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2023-11-04 18:27:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2023-11-04 18:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6ed6c71c39ef510299931ef05013186</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_gsm_service_requests" name="sn_gsm_service_requests" sys_domain="global" view="532646bec3213110299931ef05013153">eeeda471c39ef510299931ef050131af</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="sn_gsm_service_requests" sys_domain="global" view="532646bec3213110299931ef05013153">b2ed6c71c39ef510299931ef05013181</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2023-11-04 18:27:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2023-11-04 18:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>faed6c71c39ef510299931ef05013180</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_gsm_service_requests" name="sn_gsm_service_requests" sys_domain="global" view="532646bec3213110299931ef05013153">eeeda471c39ef510299931ef050131af</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="sn_gsm_service_requests" sys_domain="global" view="532646bec3213110299931ef05013153">72ed6c71c39ef510299931ef0501317b</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2023-11-04 18:27:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2023-11-04 18:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>baed6c71c39ef510299931ef0501317a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_gsm_service_requests" name="sn_gsm_service_requests" sys_domain="global" view="532646bec3213110299931ef05013153">eeeda471c39ef510299931ef050131af</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="sn_gsm_service_requests" sys_domain="global" view="532646bec3213110299931ef05013153">6eed6c71c39ef510299931ef05013136</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2023-11-04 18:27:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sn_gsm_service_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2023-11-04 18:27:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eeeda471c39ef510299931ef050131af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_gsm_service_requests</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+            <sys_update_name>sys_ui_form_sections_eeeda471c39ef510299931ef050131af</sys_update_name>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2023-11-04 18:27:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">532646bec3213110299931ef05013153</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

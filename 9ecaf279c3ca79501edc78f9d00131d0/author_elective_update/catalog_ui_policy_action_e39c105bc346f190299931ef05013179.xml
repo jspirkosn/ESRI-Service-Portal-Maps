@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item/>
+        <catalog_variable>IO:f04ad817c346f190299931ef050131e4</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-27 22:47:34</sys_created_on>
+        <sys_id>e39c105bc346f190299931ef05013179</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>latitude</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e39c105bc346f190299931ef05013179</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-27 22:47:34</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Location Fields">7e8c5c1bc346f190299931ef0501314d</ui_policy>
+        <variable>latitude</variable>
+        <variable_set display_value="ESRI JS API">21226b32c346fd501edc78f9d00131d4</variable_set>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>catalog_ui_policy_action_e39c105bc346f190299931ef05013179</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item/><catalog_variable>IO:f04ad817c346f190299931ef050131e4</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2023-10-27 22:47:34</sys_created_on><sys_id>e39c105bc346f190299931ef05013179</sys_id><sys_mod_count>0</sys_mod_count><sys_name>latitude</sys_name><sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package><sys_policy/><sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope><sys_update_name>catalog_ui_policy_action_e39c105bc346f190299931ef05013179</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2023-10-27 22:47:34</sys_updated_on><table/><ui_policy display_value="Hide Location Fields">7e8c5c1bc346f190299931ef0501314d</ui_policy><variable>latitude</variable><variable_set display_value="ESRI JS API">21226b32c346fd501edc78f9d00131d4</variable_set><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-859541584</payload_hash>
+        <record_name>latitude</record_name>
+        <reverted_from/>
+        <source>160ef739c342b9501edc78f9d00131c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-10-27 22:47:34</sys_created_on>
+        <sys_id>52ac505bc346f190299931ef0501318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b73524a720000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-10-27 22:47:34</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>96ac505bdb46f1903eb2b2f5239b4a8a</update_guid>
+        <update_guid_history>96ac505bdb46f1903eb2b2f5239b4a8a:-859541584</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="latitude">a15fb07dc3deb5101edc78f9d001311d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-04 19:43:54</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>383f0682d805409484f9eb2add9e5544</sys_id>
+        <sys_metadata>e39c105bc346f190299931ef05013179</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>latitude</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_scope_delete display_value="">840173635e9e4948a1a51a64bbe77724</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_e39c105bc346f190299931ef05013179</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_e39c105bc346f190299931ef05013179">52ac505bc346f190299931ef0501318b</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-04 19:43:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

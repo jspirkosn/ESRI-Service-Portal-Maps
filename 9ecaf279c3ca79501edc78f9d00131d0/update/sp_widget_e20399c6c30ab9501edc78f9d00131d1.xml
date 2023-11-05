@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[function initializeMap() {
+        <client_script><![CDATA[function initializeMap($scope) {
     AddArcGISLibrary();
     var c = this;
 
@@ -12,9 +12,10 @@
                 esriConfig.apiKey = c.data.apiKey;
 
                 var map = new Map({
-                    basemap: "streets"
+									//https://www.arcgis.com/home/group.html?id=702026e41f6641fb85da88efe79dc166#overview
+                    //basemap: "arcgis-navigation"
+									  basemap: "arcgis-streets"
                 });
-                //view.zoom.position = "top-right"
                 var view = new MapView({
                     container: "viewDiv",
                     map: map,
@@ -25,39 +26,11 @@
 
                 view.ui.move(["zoom"], "bottom-right");
 
-                var serviceUrl = "http://geocode-api.arcgis.com/arcgis/rest/services/World/GeocodeServer";
                 view.on("click", function(evt) {
-                    var params = {
-                        location: evt.mapPoint
-                    };
                     search.searchTerm = "";
-                    locator.locationToAddress(serviceUrl, params).then(
-                        function(response) {
-                            // Show the address found
-                            var address = response.address;
-                            showAddress(address, evt.mapPoint);
-
-                        },
-                        function(err) {
-                            // Show no address found
-                            showAddress("No address found.", evt.mapPoint);
-                        }
-                    );
-
+                    setMark(evt.mapPoint);
+                    //alert(evt.mapPoint.x);
                 });
-
-                function showAddress(address, pt) {
-
-
-                    view.openPopup({
-                        content: +Math.round(pt.longitude * 100000) / 100000 + ", " + Math.round(pt.latitude * 100000) / 100000,
-                        //content: address,
-                        //title: "Search Resulting",
-                        title: address,
-                        location: pt
-                    });
-									setVariables(pt.latitude,pt.longitude, address);
-                }
 
                 var search = new Search({ //Add Search widget
                     view: view,
@@ -65,20 +38,51 @@
                     popupEnabled: false
                 });
                 search.on("search-complete", function(event) {
-                    showAddress(event.results[0].results[0].name, event.results[0].results[0].feature.geometry);
+                    setMark(event.results[0].results[0].feature.geometry);
                 });
                 view.ui.add(search, "top-left"); //Add to the map
+
+
+                function setMark(geometryPoint) {
+                    var serviceUrl = "http://geocode-api.arcgis.com/arcgis/rest/services/World/GeocodeServer";
+
+                    var params = {
+                        "location": geometryPoint
+                    };
+
+                    locator.locationToAddress(serviceUrl, params).then(
+                        function(response) {
+                            // Show the address found
+                            //alert(response.attributes.Region);
+                            view.openPopup({
+                                title: response.attributes.LongLabel,
+                                location: geometryPoint
+                            });
+													
+                            //This centers the map on the click point and zooms in to 18
+                            view.goTo({
+															  center: geometryPoint, 
+																zoom: 18
+														});
+
+                            $scope.page.g_form.setValue("u_latitude", response.location.y);
+                            $scope.page.g_form.setValue("u_longitude", response.location.x);
+                            $scope.page.g_form.setValue("u_street", response.attributes.ShortLabel);
+                            $scope.page.g_form.setValue("u_city", response.attributes.City);
+                            $scope.page.g_form.setValue("u_region", response.attributes.Region);
+                            $scope.page.g_form.setValue("u_zipcode", response.attributes.Postal)
+
+                        },
+                        function(err) {
+                            // Show no address found
+                            showAddress("No address found.", geometryPoint);
+                        }
+                    );
+
+                }
+
             });
     }, 2000);
-}
-
-function setVariables(latIn, LonIn, locaIn) {
-    var lon = Math.round(latIn * 100000) / 100000;
-    var lat = Math.round(LonIn * 100000) / 100000;
-
-    $scope.page.g_form.setValue("latitude", lon);
-    $scope.page.g_form.setValue("longitude", lat);
-    $scope.page.g_form.setValue("location", locaIn);
 }
 
 function AddArcGISLibrary() {
@@ -91,7 +95,7 @@ function AddArcGISLibrary() {
   height: 100%;
   width: 100%;
   min-height: 350px;
-  min-width: 800px;
+  min-width: 300px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #323232;
@@ -121,14 +125,14 @@ function AddArcGISLibrary() {
         <sys_created_by>jspirko</sys_created_by>
         <sys_created_on>2023-10-24 05:32:45</sys_created_on>
         <sys_id>e20399c6c30ab9501edc78f9d00131d1</sys_id>
-        <sys_mod_count>80</sys_mod_count>
+        <sys_mod_count>138</sys_mod_count>
         <sys_name>ESRI JS API</sys_name>
         <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
         <sys_policy/>
         <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
         <sys_update_name>sp_widget_e20399c6c30ab9501edc78f9d00131d1</sys_update_name>
         <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2023-10-28 16:55:36</sys_updated_on>
+        <sys_updated_on>2023-11-05 21:06:08</sys_updated_on>
         <template><![CDATA[<link rel="stylesheet" href="https://js.arcgis.com/4.27/esri/themes/light/main.css" />
 <div id="viewDiv"></div>]]></template>
     </sp_widget>

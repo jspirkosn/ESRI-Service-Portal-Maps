@@ -12,7 +12,7 @@
 
     // Inital map setup																																							
     var map = L.map("map", {
-        minZoom: 8
+        minZoom: 10
     }).setView([myTownCenterLat, myTownCenterLong], 14);
 
     // Sets up the vector so we can click on it																					
@@ -25,25 +25,12 @@
         apikey: apiKey
     });
 
-
     var layerGroup = L.layerGroup().addTo(map);
 
     // Sets up what happens when we click on the map																					
     map.on("click", function(e) {
-        geocoder.reverse().latlng(e.latlng).run(function(error, result) {
-            if (error) {
-                return;
-            }
+        setMark(e.latlng);
 
-            setVariables(result.latlng.lat, result.latlng.lng, result.address.LongLabel);
-
-            layerGroup.clearLayers();
-            results.clearLayers();
-            marker = L.marker(result.latlng)
-                .addTo(layerGroup)
-                .bindPopup(result.address.LongLabel)
-                .openPopup();
-        });
     });
 
     // Sets up the search control
@@ -64,49 +51,42 @@
     searchControl.on('results', function(data) {
         layerGroup.clearLayers();
         for (var i = data.results.length - 1; i >= 0; i--) {
-            L.marker(data.results[i].latlng)
-                .addTo(results)
-                .bindPopup(data.results[i].text)
-                .openPopup();
-
-            setVariables(data.results[i].latlng.lat, data.results[i].latlng.lng, data.results[i].text);
+            setMark(data.results[i].latlng);
         }
     });
 
     map.locate({
             setView: true,
             watch: true
-        }) /* This will return map so you can do chaining */
+        })
         .on('locationfound', function(e) {
             latLong = L.latLng(e.latitude, e.longitude);
-            geocoder.reverse().latlng(latLong).run(function(error, result) {
-                if (error) {
-                    alert("error found");
-                    return;
-                }
-                //$scope.page.g_form.setValue("location", result.address.LongLabel);
-                result.address.LongLabel;
-                layerGroup.clearLayers();
-                results.clearLayers();
-                var marker = L.marker([e.latitude, e.longitude]).addTo(results).bindPopup("Your location is: " + result.address.LongLabel).openPopup();
-                setVariables(e.latitude, e.longitude, result.address.LongLabel);
-            });
-
-
+            setMark(latLong);
         })
         .on('locationerror', function(e) {
             //console.log(e);
             alert("Location access denied.");
         });
 
-    function setVariables(latIn, LonIn, locaIn) {
-        var lon = Math.round(latIn * 100000) / 100000;
-        var lat = Math.round(LonIn * 100000) / 100000;
+    function setMark(latLong) {
+        map.setView([latLong.lat, latLong.lng], 18);
+        geocoder.reverse().latlng(latLong).run(function(error, result) {
+            if (error) {
+                alert("error found");
+                return;
+            }
 
-        $scope.page.g_form.setValue("latitude", lon);
-        $scope.page.g_form.setValue("longitude", lat);
-        $scope.page.g_form.setValue("location", locaIn);
+            layerGroup.clearLayers();
+            results.clearLayers();
+            var marker = L.marker([latLong.lat, latLong.lng]).addTo(results).bindPopup("Your location is: " + result.address.LongLabel).openPopup();
 
+            $scope.page.g_form.setValue("u_latitude", latLong.lat);
+            $scope.page.g_form.setValue("u_longitude", latLong.lng);
+            $scope.page.g_form.setValue("u_street", result.address.Address);
+            $scope.page.g_form.setValue("u_city", result.address.City);
+            $scope.page.g_form.setValue("u_region", result.address.Region);
+            $scope.page.g_form.setValue("u_zipcode", result.address.Postal);
+        });
     }
 }]]></client_script>
         <controller_as>c</controller_as>
@@ -144,14 +124,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-23 18:44:35</sys_created_on>
         <sys_id>049db6fdc3ca79501edc78f9d0013109</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>97</sys_mod_count>
         <sys_name>ESRI Leaflet</sys_name>
         <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
         <sys_policy/>
         <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
         <sys_update_name>sp_widget_049db6fdc3ca79501edc78f9d0013109</sys_update_name>
         <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2023-10-28 00:47:50</sys_updated_on>
+        <sys_updated_on>2023-11-04 18:33:00</sys_updated_on>
         <template><![CDATA[<div id="map"></div>]]></template>
     </sp_widget>
 </record_update>
