@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Report Pothole">0279960ec3de7910299931ef0501316b</sc_cat_item>
+        <sc_category display_value="Constituent Services">f4a76809776b41109b1abfa64b5a99c0</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-11-05 21:00:32</sys_created_on>
+        <sys_id>c67ade4ec3de7910299931ef05013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Constituent Services.Report Pothole</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_update_name>sc_cat_item_category_c67ade4ec3de7910299931ef05013170</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-11-05 21:00:32</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>sc_cat_item_category_c67ade4ec3de7910299931ef05013170</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Report Pothole">0279960ec3de7910299931ef0501316b</sc_cat_item><sc_category display_value="Constituent Services">f4a76809776b41109b1abfa64b5a99c0</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2023-11-05 21:00:32</sys_created_on><sys_id>c67ade4ec3de7910299931ef05013170</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Constituent Services.Report Pothole</sys_name><sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package><sys_policy/><sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope><sys_update_name>sc_cat_item_category_c67ade4ec3de7910299931ef05013170</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2023-11-05 21:00:32</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1410852273</payload_hash>
+        <record_name>Constituent Services.Report Pothole</record_name>
+        <reverted_from/>
+        <source>160ef739c342b9501edc78f9d00131c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-11-05 21:00:33</sys_created_on>
+        <sys_id>8e7a928ec3de7910299931ef050131b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ba1498a860000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-11-05 21:00:33</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>c27a928eb1de79102ce83b597779fbb0</update_guid>
+        <update_guid_history>c27a928eb1de79102ce83b597779fbb0:1410852273</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Constituent Services.Report Pothole">128f3e0ac316b910299931ef05013129</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-11-05 23:42:29</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>8b2b7179e9844fef8b6b60277bc059d1</sys_id>
+        <sys_metadata>c67ade4ec3de7910299931ef05013170</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Constituent Services.Report Pothole</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_scope_delete display_value="">840173635e9e4948a1a51a64bbe77724</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_c67ade4ec3de7910299931ef05013170</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_c67ade4ec3de7910299931ef05013170">8e7a928ec3de7910299931ef050131b0</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-11-05 23:42:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

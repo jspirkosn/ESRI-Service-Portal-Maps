@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Report Pothole">0279960ec3de7910299931ef0501316b</sc_cat_item>
+        <sc_catalog display_value="Government Service">39309be90ca14110f87754fcb42a79a1</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-11-05 21:00:08</sys_created_on>
+        <sys_id>146a924ec3de7910299931ef05013183</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Government Service.Report Pothole</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_146a924ec3de7910299931ef05013183</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-11-05 21:00:08</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>sc_cat_item_catalog_146a924ec3de7910299931ef05013183</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Report Pothole">0279960ec3de7910299931ef0501316b</sc_cat_item><sc_catalog display_value="Government Service">39309be90ca14110f87754fcb42a79a1</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2023-11-05 21:00:08</sys_created_on><sys_id>146a924ec3de7910299931ef05013183</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Government Service.Report Pothole</sys_name><sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package><sys_policy/><sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope><sys_update_name>sc_cat_item_catalog_146a924ec3de7910299931ef05013183</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2023-11-05 21:00:08</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1323190129</payload_hash>
+        <record_name>Government Service.Report Pothole</record_name>
+        <reverted_from/>
+        <source>160ef739c342b9501edc78f9d00131c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-11-05 21:00:09</sys_created_on>
+        <sys_id>d46ade4ec3de7910299931ef0501315e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ba1492cb20000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-11-05 21:00:09</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>1c6ade4e9ede791076ee359afbe99c5d</update_guid>
+        <update_guid_history>1c6ade4e9ede791076ee359afbe99c5d:1323190129</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Government Service.Report Pothole">c68ffa0ac316b910299931ef050131cc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2023-11-05 23:42:28</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>091c6dcbb4df40a6814330b21b8685e4</sys_id>
+        <sys_metadata>146a924ec3de7910299931ef05013183</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Government Service.Report Pothole</sys_name>
+        <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
+        <sys_parent display_value="">0279960ec3de7910299931ef0501316b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
+        <sys_scope_delete display_value="">840173635e9e4948a1a51a64bbe77724</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_146a924ec3de7910299931ef05013183</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_146a924ec3de7910299931ef05013183">d46ade4ec3de7910299931ef0501315e</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2023-11-05 23:42:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -41,8 +41,8 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>longitude</name>
-        <order/>
+        <name>u_longitude</name>
+        <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -77,14 +77,14 @@
         <sys_created_by>jspirko</sys_created_by>
         <sys_created_on>2023-10-23 22:41:10</sys_created_on>
         <sys_id>52c4733dc302b9501edc78f9d0013166</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>longitude</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>u_longitude</sys_name>
         <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
         <sys_policy/>
         <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
         <sys_update_name>item_option_new_52c4733dc302b9501edc78f9d0013166</sys_update_name>
         <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2023-10-23 22:44:49</sys_updated_on>
+        <sys_updated_on>2023-11-04 18:04:49</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

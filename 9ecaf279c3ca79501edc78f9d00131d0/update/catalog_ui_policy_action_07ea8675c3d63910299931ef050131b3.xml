@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item/>
-        <catalog_variable>IO:f02a9057c346f190299931ef0501316a</catalog_variable>
+        <catalog_variable>IO:19feb0f9c3def510299931ef050131b2</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
@@ -9,19 +9,19 @@
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2023-10-27 22:48:38</sys_created_on>
-        <sys_id>82dcd05bc346f190299931ef05013191</sys_id>
+        <sys_created_on>2023-11-05 01:14:19</sys_created_on>
+        <sys_id>07ea8675c3d63910299931ef050131b3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>longitude</sys_name>
+        <sys_name>u_street</sys_name>
         <sys_package display_value="ESRI Service Portal Maps" source="x_snc_esri_service">9ecaf279c3ca79501edc78f9d00131d0</sys_package>
         <sys_policy/>
         <sys_scope display_value="ESRI Service Portal Maps">9ecaf279c3ca79501edc78f9d00131d0</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_82dcd05bc346f190299931ef05013191</sys_update_name>
+        <sys_update_name>catalog_ui_policy_action_07ea8675c3d63910299931ef050131b3</sys_update_name>
         <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2023-10-27 22:48:38</sys_updated_on>
+        <sys_updated_on>2023-11-05 01:14:19</sys_updated_on>
         <table/>
         <ui_policy display_value="Hide Location Fields on JS API">7e8c5c1bc346f190299931ef0501314d</ui_policy>
-        <variable>longitude</variable>
+        <variable>u_street</variable>
         <variable_set display_value="ESRI JS API">21226b32c346fd501edc78f9d00131d4</variable_set>
         <visible>false</visible>
     </catalog_ui_policy_action>
